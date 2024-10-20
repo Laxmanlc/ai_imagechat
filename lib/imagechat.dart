@@ -20,7 +20,7 @@ class _ImageChatState extends State<ImageChat> {
   TextEditingController prompt = TextEditingController();
 
   final apiUrl =
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=AIzaSyB79QMu9KwzpYaq0D60Ivk3c-zUU_I7NwY";
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key= USE YOUR OWN API KEY HERE ";
 
   final header = {
     'Content-Type': 'application/json',
